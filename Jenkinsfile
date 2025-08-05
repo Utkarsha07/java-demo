@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsID: 'Git_credentials', url: 'https://github.com/Utkarsha07/java-demo.git'
+                git credentialsId: 'Git_credentials', url: 'https://github.com/Utkarsha07/java-demo.git'
             }
         }
 
